@@ -2,10 +2,13 @@
 
 :root {
   --background: #ffffff;
-  --color1: #1b2543;
-  --color2: #f6c010;
-  --color3: #8d8d8d;
+  --text-color: #232323;
+  --cta-text-color: #282828;
+  --cta-bg-color: #f6c010;
+  --cta-secondary-color: #1b2543;
+  --text-secondary-color: #8d8d8d;
   --color4: #f7f7f7;
+  --border-color: #e5e5e5;
 }
 
 @theme inline {
