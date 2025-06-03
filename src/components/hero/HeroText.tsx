@@ -5,7 +5,7 @@ import video from "@/assets/images/video_hero.png";
 
 const HeroText = () => {
   return (
-    <section className="relative flex flex-col items-start justify-center w-full pl-[60px] gap-[60px]">
+    <section className="relative flex flex-col items-start justify-center w-full gap-[60px] mt-10">
       <h1 className="pb-8 border-b-[1.5px] border-[#E5E5E5] font-medium text-[54px]/[130.8%] tracking-[-7%] w-[90%]">
         Tire seu Visto conosco e não tenha nenhuma surpresa negativa!
       </h1>

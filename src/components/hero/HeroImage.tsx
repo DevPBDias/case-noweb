@@ -21,8 +21,8 @@ const HeroImage = () => {
         </Link>
         <div className="absolute bottom-0 left-0 bg-gradient-to-b from-[#23232300] to-[#232323] w-full h-96 px-10 pb-[37px] flex items-end justify-center rounded-b-3xl">
           <div className="flex flex-col items-start justify-center gap-3 w-full">
-            <h1 className="lg:text-[44px]/[130.8%] font-semibold text-white tracking-[-2%] w-3/4">
-              Realize o seu sonho com a ajuda da Tirar Visto!
+            <h1 className="lg:text-[44px]/[130.8%] font-semibold text-white tracking-[-2%]">
+              Realize o seu sonho com <br /> a ajuda da Tirar Visto!
             </h1>
             <p className="lg:text-base/[130.8%] text-white tracking-[-2%] w-3/4">
               Com um serviço profissional, você não terá dor de cabeça para todo

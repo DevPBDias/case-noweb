@@ -2,7 +2,7 @@ import { stats, Stat } from "@/constants/hero-stats";
 
 export default function HeroStats() {
   return (
-    <div className="flex flex-row items-center justify-between gap-16 w-full px-[60px] [&>*:nth-child(3)]:border-none mt-auto mb-[60px]">
+    <div className="flex flex-row items-center justify-between gap-16 w-full [&>*:nth-child(3)]:border-none mb-18 mt-auto">
       {stats.map((item: Stat) => (
         <div
           key={item.label}

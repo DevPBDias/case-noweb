@@ -5,8 +5,8 @@ import logo from "@/assets/images/logo.png";
 
 const HeroNavbar = () => {
   return (
-    <header className="flex px-[60px] items-center justify-start h-[100px] w-full mb-10">
-      <nav className="flex gap-[6px] items-center justify-between">
+    <header className="flex items-center justify-start h-[100px] w-full">
+      <nav className="flex gap-[6px] items-center justify-start w-full">
         <picture className="w-[152px] h-[42px]">
           <Image
             src={logo}
