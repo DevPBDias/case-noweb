@@ -9,11 +9,14 @@
   --text-secondary-color: #8d8d8d;
   --bg-soft-color: #f7f7f7;
   --border-color: #e5e5e5;
+  --footer-border-color: #e5e3e3;
+  --font-inter: "Inter", sans-serif;
 }
 
 @theme inline {
   --color-background: var(--background);
   --font-sans: var(--font-inter);
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
 }
 
 body {
