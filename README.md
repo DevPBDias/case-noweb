@@ -8,6 +8,8 @@ Este desafio irá verificar se o candidato possuí as seguintes habilidades em u
 - Responsividade (funcionar bem em diferentes dispositivos) 📱💻
 - Serão 2 dias para concluir o teste.
 
+obs.: Foi feito responsividade somente para large desktops e mobiles, por conta do tempo dado para execução do teste.
+
 <details>
   <summary> Layout do Figma</summary>
  </br>
