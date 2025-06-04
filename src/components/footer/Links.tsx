@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Links = () => {
   return (
-    <div className="max-w-2xl w-full flex flex-row items-start justify-between gap-6">
+    <div className="max-w-2xl w-full flex flex-row flex-wrap items-start justify-center xl:justify-between gap-12 xl:gap-8">
       {footerLinks.map((item) => (
         <div
           key={item.title}

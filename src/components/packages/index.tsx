@@ -4,7 +4,7 @@ import ContainerCards from "./ContainerCards";
 
 const Packages = () => {
   return (
-    <section className="w-full flex flex-col items-center justify-center pt-[74px] pb-[75px] px-[60px] gap-[60px]">
+    <section className="w-full flex flex-col items-center justify-center pt-[74px] pb-[75px] px-4 lg:px-8 2xl:px-[60px] gap-[60px]">
       <HeaderPackages />
       <ContainerCards />
     </section>

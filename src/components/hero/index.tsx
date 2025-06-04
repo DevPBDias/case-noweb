@@ -7,9 +7,9 @@ const HeroSection = () => {
   return (
     <main
       id="home"
-      className="flex flex-row items-center justify-center w-full h-[100dvh]"
+      className="flex flex-col xl:flex-row items-center justify-center w-full xl:h-[100dvh]"
     >
-      <section className="flex flex-col items-start justify-start w-full pl-[60px] h-full">
+      <section className="flex flex-col items-start justify-start w-full px-4 2xl:pl-[60px] xl:h-full">
         <HeroNavbar />
         <HeroText />
         <HeroStats />

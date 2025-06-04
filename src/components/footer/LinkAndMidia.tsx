@@ -4,7 +4,7 @@ import Links from "./Links";
 
 const LinkAndMidia = () => {
   return (
-    <section className="w-full flex flex-row items-center justify-between">
+    <section className="w-full flex flex-col xl:flex-row items-center justify-between gap-12">
       <SocialMedia />
       <Links />
     </section>

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const LinesStyles = () => {
   return (
-    <picture className="absolute top-6 left-0 w-full h-[423px] -z-10">
+    <picture className="absolute top-6 left-0 w-full h-[180px] md:h-[300px] xl:h-[423px] -z-10">
       <Image
         src={lines}
         alt="Lines Styles"

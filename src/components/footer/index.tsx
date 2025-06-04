@@ -3,7 +3,7 @@ import LinkAndMidia from "./LinkAndMidia";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col items-center justify-center w-full px-[60px] py-[70px] gap-[40px]">
+    <footer className="flex flex-col items-center justify-center w-full px-4 2xl:px-[60px] py-[70px] gap-[40px]">
       <Contact />
       <LinkAndMidia />
     </footer>

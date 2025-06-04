@@ -7,7 +7,7 @@ const TextContent = () => {
       <span className="text-[var(--text-color)] font-medium text-base/[130.8%] tracking-[-8%] bg-[var(--cta-bg-color)] px-5 py-[10px] rounded-[20px]">
         Top Destinos
       </span>
-      <h1 className="text-[var(--text-color)] font-medium text-[56px]/[130.8%] tracking-[-7%]">
+      <h1 className="text-[var(--text-color)] font-medium text-center text-[36px]/[130.8%] 2xl:text-[56px]/[130.8%] tracking-[-7%]">
         Destinos mais procurados
       </h1>
       <p className="text-[var(--text-secondary-color)] font-normal text-base/[130.8%] tracking-[-2%] text-center mt-1">

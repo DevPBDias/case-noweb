@@ -4,12 +4,12 @@ import { ButtonOnlyIcon } from "../ui/Buttons";
 
 const HeaderPackages = () => {
   return (
-    <header className="flex flex-row items-end justify-between gap-2 w-full">
+    <header className="flex flex-col xl:flex-row items-end justify-between gap-2 w-full">
       <div className="flex flex-col items-start justify-center gap-2">
         <span className="text-[var(--text-color)] font-medium text-base/[130.8%] tracking-[-8%] bg-[var(--cta-bg-color)] px-5 py-[10px] rounded-[20px]">
           Pacotes
         </span>
-        <h1 className="text-[var(--text-color)] font-medium text-[56px]/[130.8%] tracking-[-7%]">
+        <h1 className="text-[var(--text-color)] font-medium text-[36px]/[130.8%] 2xl:text-[56px]/[130.8%] tracking-[-7%]">
           Confira nossos pacotes
         </h1>
       </div>

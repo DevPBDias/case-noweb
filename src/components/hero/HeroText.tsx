@@ -6,11 +6,11 @@ import { ButtonOnlyIcon, ButtonWithIcon } from "../ui/Buttons";
 const HeroText = () => {
   return (
     <section className="relative flex flex-col items-start justify-center w-full gap-[60px] mt-10">
-      <h1 className="pb-8 border-b-[1.5px] border-[var(--border-color)] font-medium text-[54px]/[130.8%] tracking-[-7%] w-[90%]">
+      <h1 className="pb-8 border-b-[1.5px] border-[var(--border-color)] font-medium text-4xl lg:text-5xl 2xl:text-[54px]/[130.8%] tracking-[-7%] w-[90%]">
         Tire seu Visto conosco e não tenha nenhuma surpresa negativa!
       </h1>
       <div className="flex flex-col items-start justify-center gap-10 w-full">
-        <p className="text-[var(--text-secondary-color)] font-normal text-base/[130.8%] tracking-[-2%] w-[54%]">
+        <p className="text-[var(--text-secondary-color)] font-normal text-base/[130.8%] tracking-[-2%] xl:w-[54%]">
           Com uma equipe altamente treinada, nós temos todos os procedimentos
           para que seu processo seja o mais tranquilo e rápido. Uma consultoria
           completa para você e sua família não ter nenhuma preocupação na sua
@@ -23,8 +23,8 @@ const HeroText = () => {
           icon={<ArrowRight size={24} color="white" />}
         />
       </div>
-      <div className="absolute -bottom-[35px] right-[90px] flex flex-col items-center justify-center gap-4 w-[191px]">
-        <picture className="w-full h-[110px] rounded-2xl">
+      <div className="xl:absolute xl:-bottom-[35px] xl:right-[90px] flex flex-col items-center justify-center gap-4 w-full xl:w-[191px]">
+        <picture className="w-full h-60 xl:h-[110px] rounded-2xl">
           <Image
             src={video}
             alt="Hero image TirarVisto"

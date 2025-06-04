@@ -8,7 +8,7 @@ const SocialMedia = () => {
       <h5 className="text-[var(--text-color)] font-semibold text-base/[130.8%] tracking-[-2%]">
         Siga em nossa redes:
       </h5>
-      <div className="flex flex-row items-center justify-start gap-5">
+      <div className="flex flex-row flex-wrap items-center justify-start gap-5">
         {MEDIAS.map((media, index) => (
           <a
             key={index}

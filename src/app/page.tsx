@@ -6,7 +6,7 @@ import WhyChooseSection from "@/components/why";
 
 export default function Home() {
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col overflow-hidden">
       <HeroSection />
       <WhyChooseSection />
       <TopDestinations />

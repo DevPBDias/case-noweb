@@ -5,7 +5,7 @@ import PhotoGallery from "./PhotoGallery";
 
 const TopDestinations = () => {
   return (
-    <section className="relative w-full flex flex-col items-center justify-center pt-[84px] pb-[87px]">
+    <section className="relative w-full flex flex-col items-center justify-center pt-[84px] pb-[87px] px-4">
       <LinesStyles />
       <TextContent />
       <PhotoGallery />
