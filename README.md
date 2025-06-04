@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Desafio Técnico Noweb - Front-end React
 
-## Getting Started
+## 📌 Sobre o projeto:
 
-First, run the development server:
+Este desafio irá verificar se o candidato possuí as seguintes habilidades em um nível básico:
+- Código limpo e bem organizado 🧹
+- Fidelidade ao layout do Figma 🎨
+- Responsividade (funcionar bem em diferentes dispositivos) 📱💻
+- Serão 2 dias para concluir o teste.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<details>
+  <summary> Layout do Figma</summary>
+ </br>
+  
+  ![image](https://github.com/user-attachments/assets/dae64858-c892-48ff-9428-6979f8feceb7)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+</details>
+</br>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🖥 Quais tecnologias foram utilizadas?
+<div align="left">
+	<img width="32" src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="React" title="React"/>
+	<img width="32" src="https://github.com/marwin1991/profile-technology-icons/assets/136815194/5f8c622c-c217-4649-b0a9-7e0ee24bd704" alt="Next.js" title="Next.js"/>
+	<img width="32" src="https://user-images.githubusercontent.com/25181517/183890598-19a0ac2d-e88a-4005-a8df-1ee36782fde1.png" alt="TypeScript" title="TypeScript"/>
+<img width="32" src="https://user-images.githubusercontent.com/25181517/202896760-337261ed-ee92-4979-84c4-d4b829c7355d.png" alt="Tailwind CSS" title="Tailwind CSS"/>
+</div>
+</br>
+<details>
+  <summary>Frameworks e bibliotecas (versões utilizadas)</summary>
+  
+  ```js
+    - React: 19.0.0
+    - Next: 15.3.3
+    - Typescript: 5
+    - Tailwindcss: 4
+    - Lucide-react: 0.511.0
+  ```
+</details>
+</br>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔎 Como me localizar no projeto?
 
-## Learn More
+### Todos os arquivos de código fonte do projeto estão em: `./`
 
-To learn more about Next.js, take a look at the following resources:
+<details>
+  <summary>Como o projeto está estruturado?</summary>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  - `./public/assets` Onde está todas as imagens e os ícones que vão ser usadas no projeto.
+  
+  - `./src/app:` Este projeto com o App Router, e possui rotas somente para back-end. Então esta pasta você pode localizar a página principal, o layout com as configurações e o favicon do site.
+  
+  - `./src/components:` Onde está os componentes que serão reutilizados em diversas partes do código. 
+       
+  - `./src/constants:` Diretório onde estão localizados variáveis imutáveis que serão utilizadas na app.
+    
+</details>
+</br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤝🏼 Vamos nos conectar?
 
-## Deploy on Vercel
+<h4>🎉 É isso! Este é o projeto finalizado, caso tenha ficado com alguma dúvida ou deseje complementar algo diretamente comigo você pode estar entrando em contato através do meu <a href="https://www.linkedin.com/in/devpaulobrunomdias" target="_blank">Linkedin</a>.</h4>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<h4>🚀 Se gostou desse projeto, confira mais projetos como este no meu <a href="https://portfolio-final-jade-pi.vercel.app" target="_blank">Portfolio</a>.</h4>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<h4>👋🏻 Obrigado pela atenção e espero que tenha gostado do que tenha visto aqui, que tal agora dar uma olhada nos meus outros <a href="https://github.com/DevPBDias" target="_blank">repositórios</a>?</h4>
+</br>
+
+## ❤️ Créditos
+
+<details>
+  <summary>Créditos do figma total a equipe NaranjaLabs</summary>
+  
+> <a href="https://encurtador.com.br/buzKZ" target="_blank">https://encurtador.com.br/buzKZ</a>
+
+</details>
+<details>
+  <summary>Créditos dos emojis</summary>
+
+> <a href="https://emojipedia.org" target="_blank">https://emojipedia.org</a>
+
+</details>
+<details>
+  <summary>Créditos dos ícones</summary>
+
+> <a href="https://marwin1991.github.io/profile-technology-icons/" target="_blank">https://marwin1991.github.io/profile-technology-icons/</a>
+
+</details>
