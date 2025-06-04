@@ -1,5 +1,6 @@
 import { Service } from "@/constants/services";
 import Image from "next/image";
+import { ButtonWithIcon } from "../ui/Buttons";
 
 interface CardPackageProps {
   data: Service;
@@ -57,9 +58,10 @@ const CardPackage = ({ data }: CardPackageProps) => {
                 {data.preco}
               </p>
             </div>
-            <button className="bg-[var(--cta-secondary-color)] font-semibold text-base/[130.8%] text-white px-5 py-[10px] rounded-[40px] cursor-pointer">
-              Contratar
-            </button>
+            <ButtonWithIcon
+              text="Contratar"
+              className="bg-[var(--cta-secondary-color)] hover:bg-[var(--hover-secondary-color)]"
+            />
           </div>
         </div>
       </div>

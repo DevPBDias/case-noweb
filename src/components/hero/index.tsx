@@ -5,7 +5,10 @@ import HeroText from "./HeroText";
 
 const HeroSection = () => {
   return (
-    <main className="flex flex-row items-center justify-center w-full h-[100dvh]">
+    <main
+      id="home"
+      className="flex flex-row items-center justify-center w-full h-[100dvh]"
+    >
       <section className="flex flex-col items-start justify-start w-full pl-[60px] h-full">
         <HeroNavbar />
         <HeroText />

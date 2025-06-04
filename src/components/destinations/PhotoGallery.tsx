@@ -6,7 +6,7 @@ const PhotoGallery = () => {
     <section className="grid grid-cols-3 items-end w-3/5 mt-[60px] gap-5 [&>*:nth-child(2)]:h-[280px] [&>*:nth-child(5)]:h-[280px] [&>*:nth-child(4)]:mb-10 [&>*:nth-child(6)]:mb-10">
       {photos.map((photo) => (
         <div key={photo.id} className="w-full h-[240px]">
-          <picture className="relative w-full h-full flex flex-col items-center justify-center">
+          <picture className="relative w-full h-full flex flex-col items-center justify-center hover:scale-105 transition-all duration-300">
             <Image
               src={photo.image}
               alt={photo.destination}

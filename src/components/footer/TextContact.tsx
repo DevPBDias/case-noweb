@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { ButtonWithIcon } from "../ui/Buttons";
 
 const TextContact = () => {
   return (
@@ -11,12 +12,10 @@ const TextContact = () => {
         Entre em contato através do nosso canal direto ao cliente através do
         botão abaixo
       </p>
-      <Link
-        href=""
-        className="bg-[var(--cta-secondary-color)] font-semibold text-base/[130.8%] text-white px-5 py-[10px] rounded-[40px] cursor-pointer mt-[40px]"
-      >
-        Central de Atendimento
-      </Link>
+      <ButtonWithIcon
+        text="Central de Atendimento"
+        className="bg-[var(--cta-secondary-color)] hover:bg-[var(--hover-secondary-color)] mt-[40px]"
+      />
     </section>
   );
 };

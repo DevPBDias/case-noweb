@@ -1,5 +1,6 @@
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import React from "react";
+import { ButtonOnlyIcon } from "../ui/Buttons";
 
 const HeaderPackages = () => {
   return (
@@ -13,12 +14,14 @@ const HeaderPackages = () => {
         </h1>
       </div>
       <div className="flex flex-row items-center justify-center gap-5">
-        <button className="bg-white border-[1.5px] w-[54px] h-[54px] flex items-center justify-center border-[var(--cta-secondary-color)] hover:bg-[var(--cta-secondary-color)] p-[10px] rounded-full transition-all duration-300 cursor-pointer">
-          <ArrowLeft size={24} color="#1b2543" />
-        </button>
-        <button className="bg-[var(--cta-secondary-color)] w-[54px] h-[54px] flex items-center justify-center hover:bg-[var(--cta-secondary-color)] p-[10px] rounded-full transition-all duration-300 cursor-pointer">
-          <ArrowRight size={24} color="white" />
-        </button>
+        <ButtonOnlyIcon
+          className="bg-white border-[1.5px] w-[54px] h-[54px] hover:bg-[var(--text-secondary-color)]"
+          icon={<ArrowLeft size={24} color="#1b2543" />}
+        />
+        <ButtonOnlyIcon
+          className="bg-[var(--cta-secondary-color)] w-[54px] h-[54px] hover:bg-[var(--hover-secondary-color)]"
+          icon={<ArrowRight size={24} color="white" />}
+        />
       </div>
     </header>
   );

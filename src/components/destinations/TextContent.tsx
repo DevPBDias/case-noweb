@@ -1,5 +1,5 @@
-import Link from "next/link";
 import React from "react";
+import { ButtonWithIcon } from "../ui/Buttons";
 
 const TextContent = () => {
   return (
@@ -14,12 +14,10 @@ const TextContent = () => {
         Confira os destinos mais procurados por nossos clientes nos últimos
         meses, <br /> qual seria o seu novo destino?
       </p>
-      <Link
-        href="#about"
-        className="mt-10 flex flex-row items-center justify-center gap-[10px] bg-[var(--cta-secondary-color)] text-white font-semibold text-base/[130.8%] px-5 py-[10px] rounded-[40px] hover:bg-[var(--cta-bg-color)] transition-all duration-300"
-      >
-        Conheça mais
-      </Link>
+      <ButtonWithIcon
+        text="Conheça mais"
+        className="bg-[var(--cta-secondary-color)] hover:bg-[var(--hover-secondary-color)] mt-[40px]"
+      />
     </div>
   );
 };

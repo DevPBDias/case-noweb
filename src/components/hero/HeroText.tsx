@@ -1,27 +1,27 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
 import video from "@/assets/images/video_hero.png";
+import { ButtonOnlyIcon, ButtonWithIcon } from "../ui/Buttons";
 
 const HeroText = () => {
   return (
     <section className="relative flex flex-col items-start justify-center w-full gap-[60px] mt-10">
-      <h1 className="pb-8 border-b-[1.5px] border-[#E5E5E5] font-medium text-[54px]/[130.8%] tracking-[-7%] w-[90%]">
+      <h1 className="pb-8 border-b-[1.5px] border-[var(--border-color)] font-medium text-[54px]/[130.8%] tracking-[-7%] w-[90%]">
         Tire seu Visto conosco e não tenha nenhuma surpresa negativa!
       </h1>
       <div className="flex flex-col items-start justify-center gap-10 w-full">
-        <p className="text-[var(--text-secondary-color)] font-normal text-[16px]/[130.8%] tracking-[-2%] w-[54%]">
+        <p className="text-[var(--text-secondary-color)] font-normal text-base/[130.8%] tracking-[-2%] w-[54%]">
           Com uma equipe altamente treinada, nós temos todos os procedimentos
           para que seu processo seja o mais tranquilo e rápido. Uma consultoria
           completa para você e sua família não ter nenhuma preocupação na sua
           viagem.
         </p>
-        <Link
-          href="#about"
-          className="flex flex-row items-center justify-center gap-[10px] bg-[var(--cta-secondary-color)] text-white text-base font-semibold px-5 py-[10px] rounded-[40px] hover:bg-[var(--cta-bg-color)] transition-all duration-300"
-        >
-          Saiba mais <ArrowRight size={24} color="white" />
-        </Link>
+        <ButtonWithIcon
+          className="bg-[var(--cta-secondary-color)] hover:bg-[var(--hover-secondary-color)]"
+          leftIcon
+          text="Saiba mais"
+          icon={<ArrowRight size={24} color="white" />}
+        />
       </div>
       <div className="absolute -bottom-[35px] right-[90px] flex flex-col items-center justify-center gap-4 w-[191px]">
         <picture className="w-full h-[110px] rounded-2xl">
@@ -40,9 +40,10 @@ const HeroText = () => {
               Ver vídeo
             </p>
           </div>
-          <button className="cursor-pointer w-9 h-9 bg-[var(--cta-secondary-color)] rounded-full flex items-center justify-center hover:bg-[var(--cta-secondary-color)] transition-all duration-300">
-            <ArrowRight size={24} color="white" />
-          </button>
+          <ButtonOnlyIcon
+            className="w-9 h-9 bg-[var(--cta-secondary-color)] hover:bg-[var(--hover-secondary-color)]"
+            icon={<ArrowRight size={24} color="white" />}
+          />
         </div>
       </div>
     </section>

@@ -15,7 +15,7 @@ const HeroImage = () => {
         </picture>
         <Link
           href="#contact"
-          className="absolute top-4 right-4 bg-[var(--cta-bg-color)] text-[var(--cta-text-color)] font-base font-semibold px-5 py-2 rounded-[40px] hover:bg-[var(--cta-bg-color)] transition-all duration-300"
+          className="absolute top-4 right-4 bg-[var(--cta-bg-color)] text-[var(--cta-text-color)] text-base/[120%] font-semibold px-5 py-2.5 rounded-[40px] hover:scale-105 transition-all duration-300"
         >
           Tirar meu visto agora!
         </Link>

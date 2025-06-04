@@ -14,7 +14,7 @@ const SocialMedia = () => {
             key={index}
             href=""
             target="_blank"
-            className="text-[var(--text-color)] font-semibold text-base/[130.8%] border border-[var(--text-color)] rounded-[40px] px-5 py-2.5"
+            className="text-[var(--text-color)] font-semibold text-base/[130.8%] border border-[var(--text-color)] rounded-[40px] px-5 py-2.5 hover:bg-[var(--cta-secondary-color)] hover:text-white transition-all duration-300"
           >
             {media}
           </a>
